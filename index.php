@@ -1,4 +1,14 @@
+<form action="fichiers.php" method="post" enctype="multipart/form-data">
+    <label for="if-fichier">Choisissez un fichier texte ou image(.txt, png ou jpeg)</label>
+    <input type="file" name="user" id="id-fichier">
+    <input type="submit" value="Envoyer">
+</form>
+
+
 <?php
+
+
+
 
 /**
  * 1. Créez un formulaire classique contenant un champs input de type file
@@ -14,3 +24,7 @@
  *    Attention, trouvez une solution pour que le fichier contienne du JSON valide !
  * 6. Affichez sur la page index les fichiers ayant déjà été uploadés.
  */
+
+
+
+?>
